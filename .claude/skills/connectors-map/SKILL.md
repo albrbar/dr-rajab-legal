@@ -14,6 +14,11 @@ description: Which connector does what for Dr. Rajab's accounts, with account ID
 | Hugging Face | توليد صور، إزالة خلفية، TTS، OCR | حساب albrbar مجاني |
 | GitHub | albrbar/dr-rajab-legal — سياسة الخصوصية والشروط (GitHub Pages) | |
 
+## قرار التركيز (19 نوفمبر 2026)
+- **المنصة الأساسية: تيك توك — حساب العيادة @diabetic_foot_clinic** (عيادة القدم السكري والتقرحات).
+- حساب الدكتور @dr_rajab_albarbar ثانوي؛ لا ننشر عليه إلا بطلب.
+- المطلوب: ربط @diabetic_foot_clinic في Metricool بدل حساب الدكتور، وتحويله لحساب Business.
+
 ## ملاحظات
 - Metricool يحتاج روابط صور عامة؛ صور Drive تعمل فقط إذا رُبط Drive داخل Metricool.
 - البحث: Firecrawl و Exa و Parallel Search متصلة (لا Perplexity Search؛ Perplexity Computer لاستيراد اللوحات فقط).
