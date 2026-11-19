@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Daily accountability scorecard for the agent team.
 
-Usage: python3 .claude/dr-rajab/scorecard.py ledger.json
+Usage: python3 .claude/secretary/scorecard.py ledger.json
 ledger.json (written by the orchestrator during the run, one entry per agent):
 {"date": "2026-11-21",
  "agents": {"creative":  {"assigned": 4, "done": 4, "errors": 0, "rework": 1, "false_claims": 0, "skipped": [], "notes": "..."},
