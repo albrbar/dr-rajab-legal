@@ -41,6 +41,9 @@ def audit(post, now):
         add("WARN", f"publication time {when} is in the past")
     if not post.get("draft") and post.get("autoPublish", True) and "humanizer-ok" not in json.dumps(post, ensure_ascii=False):
         add("INFO", "auto-publishing post: confirm humanizer review happened")
+    for key in ("facebookData", "instagramData"):
+        if (post.get(key) or {}).get("boost"):
+            add("BLOCKER", f"{key}.boost set: agents may not spend money; owner launches ads himself ($30/month cap)")
     h = check(text)
     for f in h["findings"]:
         add("BLOCKER" if f["severity"] == "critical" else "WARN" if f["severity"] == "high" else "INFO",
