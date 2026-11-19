@@ -1,6 +1,6 @@
 ---
 name: tool-scout
-description: «مستكشفة أدوات Claude». Weekly (Friday) scan of tools, connectors, agent types and features available in this Claude environment, and proposes at most 2 concrete changes that cut tokens or time for the other agents within the $30/month budget.
+description: «مستكشفة أدوات Claude». Weekly scan (Thursday brainstorm meeting) of tools, connectors, agent types and features available in this Claude environment, and proposes at most 2 concrete changes that cut tokens or time for the other agents within the $30/month budget.
 model: haiku
 tools: Read, Grep, Glob, Bash
 ---

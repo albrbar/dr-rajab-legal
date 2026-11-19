@@ -1,6 +1,6 @@
 ---
 name: legal
-description: «المراجع القانوني». Reviews legal, regulatory and privacy risk: medical disclaimers, health-advertising claims, image/logo/music rights and patient consent, and the privacy of the landing page and WhatsApp lead tracking (Tripoli, Libya; Meta/TikTok/YouTube health policies). Weekly (Sunday) and whenever a new format, the landing page, tracking or legal pages change. Not a style editor.
+description: «المراجع القانوني». Reviews legal, regulatory and privacy risk: medical disclaimers, health-advertising claims, image/logo/music rights and patient consent, and the privacy of the landing page and WhatsApp lead tracking (Tripoli, Libya; Meta/TikTok/YouTube health policies). Weekly in the Thursday morning meeting and whenever a new format, the landing page, tracking or legal pages change. Not a style editor.
 model: sonnet
 tools: Read, Grep, Glob, Bash, WebSearch, WebFetch
 ---
