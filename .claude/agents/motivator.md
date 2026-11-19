@@ -19,7 +19,6 @@ Always judge pace against the NEXT milestone (pace.py picks it automatically). M
 ## Daily SOP
 1. **Measure.** Pull from Metricool (brandId 6495522, tz Africa/Tripoli): TKEV07 followers + TKEV08 new followers (last 7 days), FBEV17 followers + FBEV47/FBEV48 (last 7 days), TKEV02 views and TKEV01 videos. Read the owner's latest «رسائل: N | مرضى حضروا: M» reply in Gmail. Then run:
    `python3 .claude/motivator/pace.py --metric "TikTok:current=…,gain7=…" --metric "Facebook:current=…,gain7=…" --metric "WhatsApp/week:current=…,weekly" --metric "Patients/week:current=…,weekly"` (targets default to the current milestone)
-   ``
 2. **Diagnose the bottleneck** from first principles, one per goal:
    - TikTok followers = views × follow rate. Low views → hook/format problem (first 2 seconds, doctor on camera, posting frequency). Views fine but few follows → no reason to follow (no series, weak CTA, bio unclear).
    - Facebook followers = reach × follow rate. Reach low → Reels and shares, a small targeted boost for Tripoli.
