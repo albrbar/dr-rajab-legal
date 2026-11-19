@@ -520,5 +520,23 @@
       });
     })();
   </script>
+  <script>
+    (() => {
+      // WhatsApp lead attribution: ?src=tt|fb|yt|ig|gmb is added to bio/post links.
+      const names = { tt: 'تيك توك', fb: 'فيسبوك', yt: 'يوتيوب', ig: 'إنستغرام', gmb: 'خرائط Google' };
+      let src = '';
+      try {
+        const p = new URLSearchParams(location.search);
+        src = (p.get('src') || p.get('utm_source') || '').toLowerCase();
+        if (src) sessionStorage.setItem('src', src); else src = sessionStorage.getItem('src') || '';
+      } catch (e) {}
+      const label = names[src] || (/facebook|fbclid/.test(document.referrer + location.search) ? 'فيسبوك' : /tiktok/.test(document.referrer) ? 'تيك توك' : 'الموقع');
+      document.querySelectorAll('a[href^="https://wa.me/"]').forEach((a) => {
+        const clinic = a.closest('article, .booking-item')?.querySelector('h3')?.textContent.trim() || '';
+        const msg = 'السلام عليكم، أريد الاستفسار/الحجز' + (clinic ? ' في ' + clinic : '') + '. (المصدر: ' + label + ')';
+        a.href = a.href.split('?')[0] + '?text=' + encodeURIComponent(msg);
+      });
+    })();
+  </script>
 </body>
 </html>
