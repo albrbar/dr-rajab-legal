@@ -17,7 +17,8 @@ from pathlib import Path
 
 NAMES = {"creative": "وكيل الإبداع", "humanizer": "المراجع البشري", "supervisor": "المراقب",
          "motivator": "الوكيل المحفز", "production": "وكيل الإنتاج", "archivist": "وكيل الأرشفة",
-         "orchestrator": "المنسق"}
+         "orchestrator": "المنسق", "accountant": "المحاسب", "legal": "المراجع القانوني",
+         "coder": "المبرمج الذكي", "tool-scout": "مستكشفة أدوات Claude"}
 
 d = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
 rows = []
