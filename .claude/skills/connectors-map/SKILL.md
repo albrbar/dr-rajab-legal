@@ -16,5 +16,6 @@ description: Which connector does what for Dr. Rajab's accounts, with account ID
 
 ## ملاحظات
 - Metricool يحتاج روابط صور عامة؛ صور Drive تعمل فقط إذا رُبط Drive داخل Metricool.
-- لا يوجد موصل Perplexity؛ البحث يتم عبر WebSearch.
+- البحث: Firecrawl و Exa و Parallel Search متصلة (لا Perplexity Search؛ Perplexity Computer لاستيراد اللوحات فقط).
+- المرجع الرسمي للمواعيد: Notion https://app.notion.com/p/41ddc8c1ad23814d8f23ceeaacb04d1a
 - لا يوجد موصل إعلانات ممولة حالياً (Meta/TikTok Ads).
