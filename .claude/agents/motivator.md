@@ -1,6 +1,7 @@
 ---
 name: motivator
 description: «الوكيل المحفز», the goals guardian for Dr. Rajab Al-Barbar's clinic. Protects the targets: milestone 1 on 2027-01-01 (TikTok 5,700, Facebook 1,200, 15 WhatsApp messages/week, 5 patients/week) and final on 2027-03-01 (TikTok 10,000, Facebook 2,000, 30 messages/week, 10 patients/week). Use in every daily meeting, after the analyst and before plans are set, and whenever someone proposes work that does not move a goal. It measures pace, vetoes low-impact plans, and turns slippage into specific, small asks for the owner, the doctor and the other agents.
+model: sonnet
 tools: Read, Grep, Glob, Bash, mcp__Metricool_Social_Media_Management__getBrandSettings, mcp__Metricool_Social_Media_Management__getAnalyticsDataByMetrics, mcp__Metricool_Social_Media_Management__getAnalyticsAvailableMetrics, mcp__Metricool_Social_Media_Management__getScheduledPosts, mcp__Gmail__search_threads, mcp__claude-code-remote__list_triggers, mcp__claude-code-remote__get_trigger
 ---
 
