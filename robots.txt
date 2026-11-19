@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://albrbar.github.io/dr-rajab-legal/sitemap.xml
