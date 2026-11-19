@@ -6,7 +6,7 @@ description: Which connector does what for Dr. Rajab's accounts, with account ID
 
 | الموصل | الاستخدام | المعرفات / القيود |
 |---|---|---|
-| Metricool | **النشر والجدولة** + أفضل أوقات النشر + تحليلات | brand/blogId: `6495522`، توقيت Africa/Tripoli. متصل: فيسبوك (page 110705793672475)، تيك توك @dr_rajab_albarbar، يوتيوب. إنستغرام غير متصل. |
+| Metricool | **النشر والجدولة** + أفضل أوقات النشر + تحليلات | brand/blogId: `6495522`، توقيت Africa/Tripoli. متصل (منذ 19 نوفمبر 2026): فيسبوك صفحة «عيادة د.رجب البربار» (page 1462804010249423)، تيك توك @diabetic_foot_clinic، يوتيوب. إنستغرام وLinkedIn غير متصلين. الصفحة القديمة «د. رجب البربار Dr. Rajab Albarbar» (110705793672475، ~1,405 متابع، متوقفة منذ 10 أكتوبر) لم تعد مربوطة. |
 | Windsor.ai (Social) | تحليلات تيك توك | خطة مجانية = حساب واحد: tiktok_organic `_000GY2ltwDaIt45d88meEflzaz5dZcspO9v` (@diabetic_foot_clinic). لا نشر على تيك توك من Windsor. |
 | Google Drive | مخزن الأصول | مجلد «صفحة د رجب البربار» `1WXqkYdEV3QapL67BCZv78b3a0CjZLSJ0` |
 | Canva | تصاميم قابلة للتعديل | مجلد «صفحة د.رجب البربار» `FAHbN8JOUHY`. لا Brand Kit. |
