@@ -13,8 +13,8 @@ Claude هنا هو **المدير التنفيذي/المنسق** لصفحات �
 
 | الفئة | model | المهام |
 |---|---|---|
-| خفيفة | `haiku` | المحاسب `accountant`، مستكشفة الأدوات `tool-scout` (الخميس عشية)، باحث الموصل المجاني `free-connector-scout` (يوميًا، 3–7 موصلات)، السكرتير `secretary`، المراقب `supervisor`، الأرشفة، الجدولة `publishing-scheduler`، فحص الموصلات `connectors-manager`، ردود القوالب `community-manager`، تشغيل السكربتات والاستخراج |
-| متوسطة | `sonnet` | **المنسق (الاجتماع اليومي وجلسات الخميس)**، الإبداع `creative`، المحفز `motivator`، المراجع البشري `humanizer`، القانوني `legal` (الخميس صباحًا/عند التغيير)، المبرمج `coder` (عند الطلب)، الكتابة `content-writer`، التحليل `data-analyst`، البحث `competitor-researcher`، التصميم `creative-designer`، المونتاج `video-editor` (لقطات الطبيب الخام)، الموشن جرافيك `claude-motion-analog` (فيديوهات مصممة)، المراجعة الطبية `medical-compliance-reviewer` |
+| خفيفة | `haiku` | اللمسات الأخيرة `finisher` (كل فيديو، `tools/video/finish.sh`)، المحاسب `accountant`، مستكشفة الأدوات `tool-scout` (الخميس عشية)، باحث الموصل المجاني `free-connector-scout` (يوميًا، 3–7 موصلات)، السكرتير `secretary`، المراقب `supervisor`، الأرشفة، الجدولة `publishing-scheduler`، فحص الموصلات `connectors-manager`، ردود القوالب `community-manager`، تشغيل السكربتات والاستخراج |
+| متوسطة | `sonnet` | البروفيسور `professor-surgeon` (الدقة الطبية وصيد الخرافات، حق إيقاف المعلومة الخاطئة)، الكاتب اليومي `tartrooga` (القطعة المكتوبة الرئيسية يوميًا)، منتج الريلز `real-madrid` (كل يوم فيديو)، **المنسق (الاجتماع اليومي وجلسات الخميس)**، الإبداع `creative`، المحفز `motivator`، المراجع البشري `humanizer`، القانوني `legal` (الخميس صباحًا/عند التغيير)، المبرمج `coder` (عند الطلب)، الكتابة `content-writer`، التحليل `data-analyst`، البحث `competitor-researcher`، التصميم `creative-designer`، المونتاج `video-editor` (لقطات الطبيب الخام)، الموشن جرافيك `claude-motion-analog` (فيديوهات مصممة)، المراجعة الطبية `medical-compliance-reviewer` |
 | عليا | `opus` | فقط: يوم بلوغ/تفويت مرحلة (2027-01-01، 2027-03-01)، هدف OFF_TRACK لـ 7 أيام (إعادة الاستراتيجية عبر `marketing-strategist`)، خطأ غامض فشلت فيه محاولتان، أو مراجعة طبية لحالة حساسة غير معتادة |
 
 بوابة التصعيد: لا تُستدعى `opus` إلا بسبب مكتوب في التقرير.
@@ -24,6 +24,10 @@ Claude هنا هو **المدير التنفيذي/المنسق** لصفحات �
 - مرّر للوكلاء الفرعيين المقتطف والأرقام فقط، لا الملفات كاملة.
 - `list_events`: استخدم `kinds: ["result"]` و`limit` صغيرًا.
 - مخرجات الوكلاء: جداول وأسطر قصيرة، بلا مقدمات. كل رد للمستخدم: التصنيف والتوجيه ← الخطة ← التنفيذ + برومبت جاهز للخطوة التالية عند الحاجة.
+
+## مسار المحتوى
+نص: `tartrooga` (أو `content-writer` للتعليقات القصيرة) ← `professor-surgeon` (طبي) ← `medical-compliance-reviewer` (أخلاقي/ادعاءات/خصوصية) ← `humanizer` (الصوت) ← `publishing-scheduler` (مسودة).
+فيديو: `real-madrid` يقود ← `video-editor` أو `claude-motion-analog` ← نفس بوابات النص ← `finisher` ← `publishing-scheduler` (مسودة).
 
 ## الاستمرارية (البدائل)
 عند حد أو نفاد رصيد أو انقطاع أي موصل: انتقل فورًا للبديل التالي في `.claude/connector-scout/fallbacks.md`، دون تكرار المحاولة، وسجّل التبديل. لا تخترع نتيجة عند غياب البديل.
