@@ -8,6 +8,17 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="د. رجب البربار | عناية القدم السكري والجروح">
   <meta property="og:description" content="تقييم سريري، عناية بالجروح، ومتابعة جراحية بحسب الحالة. احجز أو استفسر عبر الهاتف أو واتساب.">
+  <link rel="canonical" href="https://albrbar.github.io/dr-rajab-legal/">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <meta property="og:url" content="https://albrbar.github.io/dr-rajab-legal/">
+  <meta property="og:locale" content="ar_LY">
+  <meta property="og:site_name" content="د. رجب البربار">
+  <meta property="og:image" content="https://albrbar.github.io/dr-rajab-legal/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Physician", "name": "د. رجب البربار", "url": "https://albrbar.github.io/dr-rajab-legal/", "image": "https://albrbar.github.io/dr-rajab-legal/og-image.jpg", "medicalSpecialty": ["Surgical", "Podiatric"], "description": "جراحة عامة، تقييم القدم السكري، والعناية بالجروح والتقرحات في طرابلس.", "areaServed": "طرابلس، ليبيا", "location": [{"@type": "MedicalClinic", "name": "مصحة الكحيلي", "telephone": "+218910104477", "address": {"@type": "PostalAddress", "addressLocality": "عين زارة", "addressRegion": "طرابلس", "addressCountry": "LY"}, "geo": {"@type": "GeoCoordinates", "latitude": 32.8364, "longitude": 13.2427}}, {"@type": "MedicalClinic", "name": "مصحة فيتوريا", "telephone": "+218931210939", "address": {"@type": "PostalAddress", "addressLocality": "زناتة", "addressRegion": "طرابلس", "addressCountry": "LY"}, "geo": {"@type": "GeoCoordinates", "latitude": 32.8615, "longitude": 13.2104}}, {"@type": "MedicalClinic", "name": "مصحة الربيع", "telephone": "+218918410755", "address": {"@type": "PostalAddress", "addressLocality": "وادي الربيع", "addressRegion": "طرابلس", "addressCountry": "LY"}}, {"@type": "MedicalClinic", "name": "مستشفى السائح القروي", "telephone": "+218926162193", "address": {"@type": "PostalAddress", "addressLocality": "السائح القروي", "addressRegion": "طرابلس", "addressCountry": "LY"}, "geo": {"@type": "GeoCoordinates", "latitude": 32.6511, "longitude": 13.1902}}]}</script>
   <title>د. رجب البربار | عناية القدم السكري والجروح</title>
   <style>
     :root {
@@ -481,7 +492,9 @@
       <p><strong>د. رجب البربار</strong> · جراحة عامة وعناية القدم والجروح</p>
       <div class="footer-links">
         <a href="#locations">أرقام الحجز حسب المصحة</a>
-        <a href="https://iwgdfguidelines.org/wp-content/uploads/2023/07/IWGDF-2023-01-Practical-Guidelines.pdf" target="_self">إرشادات الوقاية من مشكلات القدم السكري (IWGDF) ↗</a>
+        <a href="https://iwgdfguidelines.org/wp-content/uploads/2023/07/IWGDF-2023-01-Practical-Guidelines.pdf" target="_blank" rel="noopener noreferrer">إرشادات الوقاية من مشكلات القدم السكري (IWGDF) ↗</a>
+        <a href="privacy.html">سياسة الخصوصية</a>
+        <a href="terms.html">شروط الاستخدام</a>
       </div>
     </div>
   </footer>
@@ -504,6 +517,24 @@
       menu.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
       document.addEventListener('keydown', (event) => {
         if (event.key === 'Escape') closeMenu();
+      });
+    })();
+  </script>
+  <script>
+    (() => {
+      // WhatsApp lead attribution: ?src=tt|fb|yt|ig|gmb is added to bio/post links.
+      const names = { tt: 'تيك توك', fb: 'فيسبوك', yt: 'يوتيوب', ig: 'إنستغرام', gmb: 'خرائط Google' };
+      let src = '';
+      try {
+        const p = new URLSearchParams(location.search);
+        src = (p.get('src') || p.get('utm_source') || '').toLowerCase();
+        if (src) sessionStorage.setItem('src', src); else src = sessionStorage.getItem('src') || '';
+      } catch (e) {}
+      const label = names[src] || (/facebook|fbclid/.test(document.referrer + location.search) ? 'فيسبوك' : /tiktok/.test(document.referrer) ? 'تيك توك' : 'الموقع');
+      document.querySelectorAll('a[href^="https://wa.me/"]').forEach((a) => {
+        const clinic = a.closest('article, .booking-item')?.querySelector('h3')?.textContent.trim() || '';
+        const msg = 'السلام عليكم، أريد الاستفسار/الحجز' + (clinic ? ' في ' + clinic : '') + '. (المصدر: ' + label + ')';
+        a.href = a.href.split('?')[0] + '?text=' + encodeURIComponent(msg);
       });
     })();
   </script>
