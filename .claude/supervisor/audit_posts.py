@@ -14,7 +14,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "humanizer"))
 from humanize_check import check  # noqa: E402
 
 LANDING = "albrbar.github.io/dr-rajab-legal"
-DISCLAIMER = re.compile(r"لا يغني عن|للتوعية العامة")
+DISCLAIMER = re.compile(r"لا [يت]غني عن|للتوعية العامة|معلومة توعوية")
 PHONES = {"0910104477", "0931210939", "0918410755", "0926162193",
           "218910104477", "218931210939", "218918410755", "218926162193"}
 NEEDS_MEDIA = {"tiktok", "youtube", "instagram", "pinterest"}
