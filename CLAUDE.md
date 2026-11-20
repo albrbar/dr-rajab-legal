@@ -14,7 +14,7 @@ Claude هنا هو **المدير التنفيذي/المنسق** لصفحات �
 | الفئة | model | المهام |
 |---|---|---|
 | خفيفة | `haiku` | المحاسب `accountant`، مستكشفة الأدوات `tool-scout` (الخميس عشية)، السكرتير `secretary`، المراقب `supervisor`، الأرشفة، الجدولة `publishing-scheduler`، فحص الموصلات `connectors-manager`، ردود القوالب `community-manager`، تشغيل السكربتات والاستخراج |
-| متوسطة | `sonnet` | **المنسق (الاجتماع اليومي وجلسات الخميس)**، الإبداع `creative`، المحفز `motivator`، المراجع البشري `humanizer`، القانوني `legal` (الخميس صباحًا/عند التغيير)، المبرمج `coder` (عند الطلب)، الكتابة `content-writer`، التحليل `data-analyst`، البحث `competitor-researcher`، التصميم `creative-designer`، المونتاج `video-editor`، المراجعة الطبية `medical-compliance-reviewer` |
+| متوسطة | `sonnet` | **المنسق (الاجتماع اليومي وجلسات الخميس)**، الإبداع `creative`، المحفز `motivator`، المراجع البشري `humanizer`، القانوني `legal` (الخميس صباحًا/عند التغيير)، المبرمج `coder` (عند الطلب)، الكتابة `content-writer`، التحليل `data-analyst`، البحث `competitor-researcher`، التصميم `creative-designer`، المونتاج `video-editor` (لقطات الطبيب الخام)، الموشن جرافيك `claude-motion-analog` (فيديوهات مصممة)، المراجعة الطبية `medical-compliance-reviewer` |
 | عليا | `opus` | فقط: يوم بلوغ/تفويت مرحلة (2027-01-01، 2027-03-01)، هدف OFF_TRACK لـ 7 أيام (إعادة الاستراتيجية عبر `marketing-strategist`)، خطأ غامض فشلت فيه محاولتان، أو مراجعة طبية لحالة حساسة غير معتادة |
 
 بوابة التصعيد: لا تُستدعى `opus` إلا بسبب مكتوب في التقرير.
