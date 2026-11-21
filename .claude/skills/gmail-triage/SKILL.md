@@ -23,7 +23,7 @@ description: Triage and clean the owner's Gmail at scale — labels, bulk classi
 
 ## قواعد صارمة
 1. التصنيف **بالمرسل والفئة فقط**؛ لا تُقرأ نصوص الرسائل (خصوصية). `get_thread` ممنوع في التصنيف.
-2. الحذف = `Trash` فقط، وعلى `Auto/1` فقط، وليس لما عليه label آخر من الهيكل أو نجمة. لا حذف نهائيًا.
+2. الحذف = `Trash` فقط، وعلى `Auto/1` فقط، وليس لما عليه label آخر من الهيكل أو نجمة. الحذف النهائي لا يتم إلا بأمر صريح من المالك، ويُنفَّذ عبر `emptyTrashPermanently()` في Apps Script أو "Empty Trash now" في Gmail (أدوات MCP لا تدعمه).
 3. لا تخمّن بين العمل والخاص: غامض ← `Auto/5-Review`.
 4. المجلدات اليدوية للمالك (Work, Personal, مخزن, GRE, Travel…): أي محادثة عليها label غير `Auto/*` تُتخطى في التصنيف والحذف، والفحص بقراءة مجلدات المحادثة (`isManual_`) لا بالاستعلام، لأن `label:personal` في بحث Gmail يطابق تبويب Primary.
 5. لا إرسال ولا رد ولا مسودات من هذا المسار.

@@ -177,3 +177,32 @@ function installDailyTrigger() {
   ScriptApp.newTrigger('dailyRun').timeBased().everyDays(1).atHour(3).create();
   Logger.log('daily trigger installed (03:00)');
 }
+
+// ---------- تنفيذ شامل + حذف نهائي (بأمر صريح من المالك) ----------
+
+/** يصنّف كل ما تبقّى ثم ينقل الإعلانات إلى Trash. إن ظهر TIME LIMIT شغّلها مرة أخرى. */
+function cleanAll() {
+  runClassify_('');
+  trashJunk(0);
+}
+
+/**
+ * حذف نهائي لكل ما في Trash (لا رجعة فيه، ويشمل ما كان في Trash قبل هذا السكربت).
+ * أسهل بديل بلا إعداد: Gmail ← Trash ← "Empty Trash now".
+ * لتشغيل هذه الدالة:
+ *   1) Services (+) ← أضف Gmail API.
+ *   2) Project Settings ← "Show appsscript.json" ← أضف:
+ *        "oauthScopes": ["https://mail.google.com/", "https://www.googleapis.com/auth/script.scriptapp"]
+ */
+function emptyTrashPermanently() {
+  const started = Date.now();
+  let n = 0;
+  while (Date.now() - started < CFG.MAX_RUNTIME_MS) {
+    const r = Gmail.Users.Messages.list('me', { q: 'in:trash', maxResults: 500 });
+    const ids = (r.messages || []).map((m) => m.id);
+    if (!ids.length) { Logger.log('Trash is empty. deleted permanently: ' + n); return; }
+    Gmail.Users.Messages.batchDelete({ ids: ids }, 'me'); // حتى 500 رسالة لكل استدعاء
+    n += ids.length;
+  }
+  Logger.log('deleted permanently: ' + n + ' | TIME LIMIT — شغّلها مرة أخرى');
+}
