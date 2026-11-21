@@ -25,8 +25,9 @@ const CFG = {
     acct: 'Auto/4-Accounts-Security',
     review: 'Auto/5-Review',
   },
-  // مجلداتك المرتبة يدويًا: تُستثنى من التصنيف كليًا (بأسماء البحث).
-  SKIP_USER_LABELS: ['work', 'personal', 'مخزن', 'gre', '2015-7', 'travel', 'usa-fellowship', 'english', 'receipts'],
+  // أي محادثة عليها مجلد (label) يدوي من مجلداتك غير Auto/* تُتخطى كليًا في التصنيف والحذف.
+  // الفحص يتم بقراءة مجلدات كل محادثة (isManual_)، لا بالاستعلام، لأن label:personal في بحث Gmail
+  // يطابق تبويب Primary وليس مجلدك المسمى Personal.
   BATCH: 100,                   // أقصى حجم دفعة تقبله GmailApp
   MAX_RUNTIME_MS: 5 * 60 * 1000, // حد أمان قبل مهلة 6 دقائق
 };
@@ -45,9 +46,19 @@ function searchName_(fullName) {
 }
 
 function exclusions_() {
-  const mine = Object.values(CFG.LABELS).map((n) => '-label:' + searchName_(n));
-  const user = CFG.SKIP_USER_LABELS.map((n) => '-label:' + n);
-  return mine.concat(user).join(' ');
+  return Object.values(CFG.LABELS).map((n) => '-label:' + searchName_(n)).join(' ');
+}
+
+// هل على المحادثة مجلد يدوي (أي label مستخدم لا يبدأ بـ Auto/)؟
+function isManual_(thread) {
+  return thread.getLabels().some((l) => !/^Auto\//.test(l.getName()));
+}
+
+// دفعة من الاستعلام مع تخطي المجلدات اليدوية. offset يتقدم بعدد المتخطّى كي لا تتكرر نفس النتائج.
+function fetchBatch_(query, offset) {
+  const all = GmailApp.search(query, offset, CFG.BATCH);
+  const ok = all.filter((t) => !isManual_(t));
+  return { ok: ok, skipped: all.length - ok.length, empty: all.length === 0 };
 }
 
 function label_(name) {
@@ -70,9 +81,13 @@ function classifyQuery_(query, defaultBucket, started) {
   const labels = {};
   Object.keys(CFG.LABELS).forEach((k) => (labels[k] = label_(CFG.LABELS[k])));
 
+  let offset = 0;
   while (Date.now() - started < CFG.MAX_RUNTIME_MS) {
-    const threads = GmailApp.search(query + ' ' + exclusions_(), 0, CFG.BATCH);
-    if (!threads.length) return { counts: counts, done: true };
+    const b = fetchBatch_(query + ' ' + exclusions_(), offset);
+    if (b.empty) return { counts: counts, done: true };
+    offset += b.skipped; // المتخطّى (مجلدات يدوية) يبقى في الاستعلام
+    const threads = b.ok;
+    if (!threads.length) continue;
 
     const messages = GmailApp.getMessagesForThreads(threads); // قراءة جماعية
     const groups = { junk: [], work: [], priv: [], acct: [], review: [] };
@@ -126,7 +141,7 @@ function junkQuery_(minAgeDays) {
 }
 
 function previewTrash() {
-  const threads = GmailApp.search(junkQuery_(0), 0, 500);
+  const threads = GmailApp.search(junkQuery_(0), 0, 500).filter((t) => !isManual_(t));
   const bySender = {};
   GmailApp.getMessagesForThreads(threads).forEach((m) => {
     const f = (m[0] ? m[0].getFrom() : '?').replace(/.*<|>.*/g, '');
@@ -139,11 +154,15 @@ function previewTrash() {
 function trashJunk(minAgeDays) {
   const started = Date.now();
   let n = 0;
+  let offset = 0;
   while (Date.now() - started < CFG.MAX_RUNTIME_MS) {
-    const threads = GmailApp.search(junkQuery_(minAgeDays || 0), 0, CFG.BATCH);
-    if (!threads.length) break;
-    GmailApp.moveThreadsToTrash(threads); // 100 محادثة في استدعاء واحد
-    n += threads.length;
+    const b = fetchBatch_(junkQuery_(minAgeDays || 0), offset);
+    if (b.empty) break;
+    offset += b.skipped; // ما عليه مجلد يدوي لا يُحذف ويبقى في مكانه
+    if (b.ok.length) {
+      GmailApp.moveThreadsToTrash(b.ok); // 100 محادثة في استدعاء واحد
+      n += b.ok.length;
+    }
   }
   Logger.log('moved to Trash: ' + n + ' (قابل للاسترجاع 30 يومًا)');
 }
