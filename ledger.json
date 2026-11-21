@@ -1,0 +1,10 @@
+{"date":"2026-11-21","agents":{
+"orchestrator":{"assigned":6,"done":5,"errors":0,"rework":0,"false_claims":0,"skipped":["خطة الأسبوع غير موجودة (لا بريد)"],"notes":"الأرشفة/الواتساب حسب النتيجة"},
+"accountant":{"assigned":1,"done":1,"errors":0,"rework":0,"false_claims":0,"skipped":[]},
+"supervisor":{"assigned":2,"done":2,"errors":0,"rework":0,"false_claims":0,"skipped":[]},
+"motivator":{"assigned":1,"done":1,"errors":0,"rework":0,"false_claims":0,"skipped":[],"notes":"أدخل 0 لواتساب فأعطى OFF_TRACK خاطئًا ثم صححه"},
+"creative":{"assigned":1,"done":1,"errors":0,"rework":1,"false_claims":0,"skipped":[]},
+"free-connector-scout":{"assigned":1,"done":0,"errors":1,"rework":0,"false_claims":0,"skipped":["SearchMcpRegistry غير متاح"]},
+"humanizer":{"assigned":1,"done":1,"errors":0,"rework":0,"false_claims":0,"skipped":[]},
+"legal":{"assigned":0,"done":0,"errors":0,"rework":0,"false_claims":0,"skipped":[]}
+},"blockers":["Zapier بلا واتساب (Drive وCalendar فقط)","SearchMcpRegistry غير متاح","منشور 436594209 المنشور بلا إخلاء (من حساب المالك)"]}
