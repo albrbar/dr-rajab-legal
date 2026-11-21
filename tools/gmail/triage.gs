@@ -34,9 +34,9 @@ const CFG = {
 
 // الترتيب مهم: الحسابات أولًا، ثم العمل، ثم الإعلانات المعروفة.
 const RULES = {
-  acct: /security@|accounts\.google\.com|noreply-accounts|binance|paypal|stripe|billing|invoice|receipt|payments?@|\bbank\b|verify|verification|password/i,
-  work: /businessprofile|calendar-notification|@github\.com|vercel\.com|notion\.(so|com)|metricool|slack\.com|zapier|canva|tiktok|windsor|supermetrics|hospital|clinic|مستشفى|عيادة/i,
-  junk: /alibaba\.com|medi-jobs|medshr|beehiiv|jobalert|jobalerts|linkedin\.com|indeed\.com|redditmail|substack|mailchimp|newsletter|duolingo|coingecko|forbes|brizy|tm\.openai\.com|sider\.ai|n8n\.cloud|twin\.so|macaly|jam\.dev|tsboi|gitlab\.com|yahoogroups|marketing@|promo|deals?@|offers?@/i,
+  acct: /security@|accounts\.google\.com|noreply-accounts|binance|kucoin|okx|solscan|dropbox|thinkific|paypal|stripe|billing|invoice|receipt|payments?@|\bbank\b|verify|verification|password/i,
+  work: /medshr|supermetrics|adwhispr|email\.claude\.com|anthropic\.com|businessprofile|calendar-notification|@github\.com|vercel\.com|notion\.(so|com)|metricool|slack\.com|zapier|canva|tiktok|windsor|supermetrics|hospital|clinic|مستشفى|عيادة/i,
+  junk: /openai\.com|gcmyatirim|alibaba\.com|medi-jobs|medshr|beehiiv|jobalert|jobalerts|linkedin\.com|indeed\.com|redditmail|substack|mailchimp|newsletter|duolingo|coingecko|forbes|brizy|tm\.openai\.com|sider\.ai|n8n\.cloud|twin\.so|macaly|jam\.dev|tsboi|gitlab\.com|yahoogroups|marketing@|promo|deals?@|offers?@/i,
 };
 
 // ---------- أدوات مساعدة ----------
