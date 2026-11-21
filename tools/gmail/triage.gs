@@ -123,7 +123,7 @@ function runClassify_(extra) {
   let finished = true;
   const sweeps = [
     ['in:inbox (category:promotions OR category:social) ' + extra, 'junk'],
-    ['in:inbox category:updates ' + extra, 'review'],
+    ['in:inbox category:updates ' + extra, 'junk'], // بأمر المالك: غير المحسوم في Updates يُحذف (الحسابات والعمل تُنقَذ بالقواعد أولًا)
     ['in:inbox ' + extra, 'review'], // الباقي (Primary وغيره): الأشخاص يذهبون للمراجعة
   ];
   for (const [q, def] of sweeps) {
