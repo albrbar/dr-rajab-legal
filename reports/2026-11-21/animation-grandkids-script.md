@@ -1,0 +1,27 @@
+# أنيميشن «شبشب جدّو» — للأحفاد والأبناء — 20 ث (5 × 4 ث) — لهجة ليبية
+الشخصيات (أصلية، لا نسخ لشخصية «أبو الكتاكيت» لـ Sara Elewa): جدّو بطة كبيرة بنظارة وشنّة حمراء وشنب أبيض؛ الحفيد كتكوت صغير بكاب أزرق داكن.
+النص العربي يُكتب في المونتاج (مولّدات الصور تكسر العربي).
+
+| # | الوقت | المشهد | الصوت (لهجة ليبية) | نص الشاشة |
+|---|---|---|---|---|
+| 1 | 0–4 | جدّو قاعد، الشبشب يطيح من رجله وهو ما انتبهش، الحفيد يشوف مصدوم | «جدّي… طاح شبشبك وما حسّيتش بيه؟!» | طاح الشبشب… وما حسّش! |
+| 2 | 4–8 | الحفيد يحك راسه وعلامات استفهام | «السكر يضعّف الإحساس في الرجلين، والجرح الصغير يكبر بلا ما يحس» | السكر يضعّف الإحساس |
+| 3 | 8–12 | الحفيد بكشاف التليفون يشوف بين الصوابع وتحت الكعب | «كل يوم شوف رجلين جدّك: بين الصوابع وتحت الكعب» | افحص رجليه كل يوم |
+| 4 | 12–16 | يلقى بقعة حمراء صغيرة (بدون جرح واضح)، علامة تنبيه | «أي جرح ما يتحسنش ولا تغيّر في اللون… ما تستناش!» | جرح أو تغيّر لون = ما تستناش |
+| 5 | 16–20 | الحفيد ماسك جناح جدّو قدام باب مستشفى | «خوذه للكشف المجاني… رجلين جدّك أمانة» | كشف مجاني للقدم السكري · مستشفى السائح القروي · الثلاثاء والأربعاء 9–1 · 0926162193 |
+
+ثابت آخر 3 ث: شعار العيادة + الرقم. تعليق المنشور: «سوّي منشن لحفيد يحب جدّه 👴❤️» (بلا رابط).
+تنويه صغير: معلومة توعوية لا تغني عن الكشف.
+
+## برومبتات الصور (نفس الشخصيات في كل لقطة)
+STYLE: original cute 2D cartoon, thick clean outlines, flat warm colors, navy #1a2b4c and gold #c5a059 accents, simple Libyan home interior, vertical 9:16, NO text, no watermark.
+CHARACTERS: Grandpa = plump old duck, round glasses, small red Libyan chechia hat, white moustache, cream jalabiya. Grandkid = small yellow chick, navy baseball cap.
+1. Grandpa duck sitting on a floor cushion, one blue slipper slipping off his foot onto the floor, he is smiling unaware; grandkid chick in the doorway, shocked face.
+2. Grandkid chick scratching head, question marks floating, grandpa's bare foot in front with soft faded glow lines showing weak sensation.
+3. Grandkid chick kneeling, holding phone flashlight, gently looking between grandpa's toes and under the heel.
+4. Close-up: grandkid points at a small red spot on grandpa's foot sole (no blood, no wound detail), yellow warning icon.
+5. Grandkid chick holding grandpa duck's wing, both walking happily toward a hospital entrance, sunny day, blank sign above door.
+
+## تحريك
+كل صورة → فيديو 4 ث (Kling / Hailuo / Runway image-to-video، أو حركة كاميرا بسيطة في المونتاج). الصوت: تسجيل بصوت ليبي حقيقي (أفضل من صوت آلي).
+بوابة hook-cta-accuracy-gate قبل النشر.
