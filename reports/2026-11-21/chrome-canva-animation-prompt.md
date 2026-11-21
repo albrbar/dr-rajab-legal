@@ -15,8 +15,8 @@
 فيه 5 صفحات (الصورة A لكل مشهد). اعمل نسخة منه باسم «شبشب جدّو — فيديو» واشتغل على النسخة.
 
 الخطوة 2 — الصور B (الصورة الثانية لكل مشهد):
-صورة B للمشهد 1 موجودة في «Uploads/Generated» (الكتكوت يجري ويقول صباح الخير والجد ينظر للشبشب). استخدمها.
-للمشاهد 2–5 ولّد صورة بـ Magic Media / Dream Lab مع اختيار صورة الصفحة 1 كمرجع (نفس الشخصيتين ونفس الأسلوب، بدون أي نص):
+ولّد 5 صور B صورة بـ Magic Media / Dream Lab مع اختيار صورة الصفحة 1 كمرجع (نفس الشخصيتين ونفس الأسلوب، بدون أي نص). مهم: اطلب «different pose and camera angle from the reference» — إذا طلعت الصورة شبه نسخة من المرجع أعد التوليد مرة واحدة:
+- 1B: Close-up: the yellow chick in the navy cap bursts in waving "good morning" with a big smile; grandpa duck looks down surprised at his bare foot and the blue slipper on the floor.
 - 2B: Close-up of the grandpa duck's bare foot with a tiny scratch on one toe and a soft faint red glow (no blood); the yellow chick in the navy cap leans in worried.
 - 3B: The chick holds a smartphone with a bright visible flashlight beam, checking between grandpa's toes; grandpa smiles and nods.
 - 4B: The chick holds grandpa's wing and gently pulls him up from the cushion; grandpa agrees with a smile.
