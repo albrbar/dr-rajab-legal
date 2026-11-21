@@ -31,7 +31,7 @@ description: Triage and clean the owner's Gmail at scale — labels, bulk classi
 ## طريقة MCP (للدفعات الصغيرة)
 الموصل لا يرقّم الصفحات، فاستخدم **حلقة الاستثناء**: كل محادثة تأخذ label فتخرج من الاستعلام، فتعيد الدورة التالية دفعة جديدة.
 ```
-in:inbox <scope> -label:auto-1-junk-fordelete -label:auto-2-work-useful -label:auto-3-private -label:auto-4-accounts-security -label:auto-5-review -label:work -label:personal -label:مخزن
+in:inbox <scope> -label:auto-1-junk-fordelete -label:auto-2-work-useful -label:auto-3-private -label:auto-4-accounts-security -label:auto-5-review -label:work -label:مخزن
 ```
 - `pageSize=50`، `view=THREAD_VIEW_METADATA_ONLY`، ثم `label_thread` متوازية لكل نتيجة، وكرّر حتى `{}`.
 - اسم label المتداخل في البحث: صغيرة وتحويل المسافة و`/` إلى `-`.
