@@ -4,6 +4,8 @@ description: Exact ffmpeg/Picsart workflow to turn raw clinic footage into a Tik
 ---
 # خط إنتاج المونتاج
 
+> قبل أي شيء: طبّق `hook-cta-accuracy-gate`. فيديو بلا وجه/لقطة حقيقية في الإطار الأول = مرفوض.
+
 ## 1. الاستلام
 - Drive `download_file_content` حدّه 10MB؛ الأكبر يُطلب تصغيره (Clipchamp 720p/480p أو واتساب).
 - الملف يُحفظ في tool-results؛ انسخه إلى مجلد عمل جديد في scratchpad.
