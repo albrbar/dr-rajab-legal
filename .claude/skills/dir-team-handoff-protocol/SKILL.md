@@ -5,3 +5,4 @@ description: (مدير العمليات) Handoff contract between production (cr
 - الإنتاج يسلّم: نص معتمد من humanizer + موافقة legal + ملف الوسائط (معرّف Drive).
 - العمليات تسلّم: plannerUrl، رابط Drive، تقرير أداء.
 - أي تسليم بلا معرّف = غير مستلم.
+- قبل اجتماع الإبداع: ops-analytics يسلّم reports/<التاريخ>/creative-brief.md (ana-creative-brief)، وcreative يبني عليه. اجتماع بلا ملف = يؤجَّل.
