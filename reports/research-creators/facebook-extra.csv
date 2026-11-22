@@ -1,0 +1,111 @@
+id,facebook_url,fb_followers,fb_likes,fb_source,fb_reels_median_views,fb_reels_count,new_tiktok_handle,gender,profession,first_year,language,patient_footage,booking_cta
+1,https://www.facebook.com/podologiapiesperfectos,,,exa: efectociudadano.mx lists page (no count),,,,org,podiatrist,,es-MX,yes,yes
+2,,,,,,,,m,podiatrist,,es-MX,yes,yes
+3,,,,,,,,m,podiatrist,,es-MX,yes,unknown
+4,,,,,,,,f,other,,es-MX,unknown,unknown
+5,,,,,,,,m,podiatrist,,es-MX,unknown,unknown
+6,,,,,,,,m,other,2020,es-MX,no,unknown
+7,https://www.facebook.com/DrPoloGuerrero,,,country notes (url only),,,,m,GP,2020,es-MX,unknown,yes
+8,,,,,,,,m,GP,,es-MX,unknown,unknown
+9,,1000000,,"doctorvic.com.mx states '+1M Facebook' (lower bound, undated)",,,doctorvic,m,surgeon,2019,es-MX,unknown,unknown
+10,,,,,,,dr.pepearana,m,surgeon,,es-MX,no,unknown
+11,https://www.facebook.com/podologakely,,,country notes (url only),,,,f,podiatrist,,pt-BR,yes,yes
+12,,,,,,,,unknown,podiatrist,,pt-BR,yes,unknown
+13,,,,,,,,unknown,podiatrist,,pt-BR,unknown,unknown
+14,,,,,,,,f,podiatrist,,pt-BR,unknown,no
+15,https://www.facebook.com/PodologaeManicure,,,country notes (url only),,,,f,podiatrist,,pt-BR,unknown,unknown
+16,https://www.facebook.com/101047751516989,,,exa place listing (url only; notes say 838 followers),,,,m,surgeon,,pt-BR,unknown,unknown
+17,,,,,,,dr.ricardokores,m,other,2022,pt-BR,no,yes
+18,,,,,,,brunobaroni_a,m,other,2020,pt-BR,no,unknown
+19,,,,,,,portaldrauziovarella,m,other,,pt-BR,no,unknown
+20,,,,,,,drlucasfmattos,m,other,,pt-BR,unknown,unknown
+21,,,,,,,,f,podiatrist,2019,en-US,unknown,unknown
+22,,,,,,,,m,surgeon,,en-US,no,unknown
+23,,,,,,,,unknown,surgeon,,en-US,unknown,unknown
+24,,,,,,,,m,surgeon,,en-US,no,unknown
+25,,,,,,,,m,surgeon,,en-US,yes,no
+26,,,,,,,,m,surgeon,,en-US,yes,unknown
+27,,,,,,,,m,podiatrist,,en-US,unknown,no
+28,,,,,,,,f,podiatrist,,en-US,unknown,unknown
+29,,,,,,,,m,other,,en-US,unknown,unknown
+30,,,,,,,,f,other,,en-US,unknown,unknown
+31,,,,,,,,m,podiatrist,,en (UK podiatrist based in Singapore),unknown,yes
+32,,,,,,,,f,podiatrist,,en-GB,yes,unknown
+33,,,,,,,,f,podiatrist,,en-GB,no,unknown
+34,,,,,,,,org,podiatrist,,en-GB,yes,unknown
+35,,,,,,,,m,podiatrist,,en-GB,unknown,unknown
+36,,,,,,,,m,surgeon,,en-GB,unknown,unknown
+37,,,,,,,,m,nurse,,en/tl (Filipino-British),unknown,unknown
+38,,,,,,,,f,other,,en-GB,no,unknown
+39,,,,,,,,m,GP,,en-GB,no,unknown
+40,,,,,,,,f,other,,en-GB,unknown,unknown
+41,https://www.facebook.com/kardiyobey,675000,,search snippet of FB page '675K followers' (parallel search 2026-11-22),,,,m,other,,tr,unknown,unknown
+42,,,,,,,,m,surgeon,,tr,unknown,unknown
+43,,,,,,,unverified (not found),org,surgeon,,tr,yes,unknown
+44,,,,,,,,m,other,,tr,yes,unknown
+45,,,,,,,,f,podiatrist,,tr,unknown,unknown
+46,,,,,,,,m,podiatrist,,tr,yes,unknown
+47,,,,,,,unverified (not found),m,surgeon,,tr,no,unknown
+48,,,,,,,unverified (not found),f,surgeon,,tr,unknown,unknown
+49,https://www.facebook.com/DrOsmanMuftuoglu,,,handles.csv path; no count found (separate clinic page 525653107445292 shows 1292 likes),,,unverified (not found),m,other,,tr,unknown,unknown
+50,,,,,,,unverified (not found),m,surgeon,,tr,yes,unknown
+51,https://www.facebook.com/DrHossamElMahdy,198000,,elmahdyclinic.com self-reported '198K' (undated); reels via scrapecreators 2026-11-22,3800,10,,m,surgeon,,ar-EG,yes,yes
+52,https://www.facebook.com/ProfMohamedMokhtar,,,url only; no count found,,,,m,surgeon,,ar-EG,yes,unknown
+53,https://www.facebook.com/mohamed.m.badr.7,6668,5959,search snippets of FB page (followers 6668; likes 5959 older snippet),,,,m,other,,ar-EG,unknown,yes
+54,https://www.facebook.com/DR.AbdelRaheem.F.M,,,handles.csv path; no count found,,,,m,surgeon,,ar-EG,unknown,unknown
+55,,,,,,,,m,other,,ar-EG,no,unknown
+56,,,,,,,,m,surgeon,,ar-EG,unknown,unknown
+57,https://www.facebook.com/sherifgamaldr,27000,,search snippet of FB page '27K followers' (personal-style creator page),,,,m,GP,,ar-EG,unknown,unknown
+58,,,,,,,,m,other,,ar-EG,unknown,unknown
+59,,,,,,,,m,other,,ar-EG,yes,unknown
+60,https://www.facebook.com/people/%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1-%D8%A3%D8%AD%D9%85%D8%AF-%D8%A3%D8%B4%D8%B1%D9%81/61559799361074/,4300000,,search snippet of FB page '4.3M followers'; reels via scrapecreators 2026-11-22; page not verified,715000,10,,m,other,,ar-EG,unknown,unknown
+61,https://www.facebook.com/277340765757337,2000,1800,"search snippet of FB page '1.8K likes, 2K followers'",,,unverified (not found),org,podiatrist,,fr,yes,yes
+62,https://www.facebook.com/docteurachargui,6200,,search snippet of FB page '6.2K followers',,,unverified (not found),m,surgeon,,fr/ar,unknown,unknown
+63,,,,,,,,f,podiatrist,,fr,unknown,unknown
+64,,,,,,,,f,podiatrist,,fr,unknown,unknown
+65,,,,,,,,m,podiatrist,,fr,unknown,unknown
+66,https://www.facebook.com/p/DoctorMouad-100094329439092,,,handles.csv path; no new count,,,,m,GP,,ar-MA (Darija),unknown,unknown
+67,https://www.facebook.com/oubeid.hlal,,,handles.csv path; no count found,,,,m,other,,ar-MA/fr,no,unknown
+68,https://www.facebook.com/drboubouh,485000,,search snippet of FB page '485K followers',,,,m,surgeon,,ar-MA (Darija),unknown,unknown
+69,,,,,,,,m,GP,,ar-MA/fr,unknown,unknown
+70,https://www.facebook.com/drsmael2,,9293,"search snippet '9293 likes' (Dr Ismail Aziz, Rabat; same-person match by name/city only)",,,,m,other,,ar-MA/fr,unknown,unknown
+71,,,,,,,,m,surgeon,,de,unknown,unknown
+72,,,,,,,unverified (not found),f,surgeon,,de,unknown,unknown
+73,,,,,,,unverified (not found),m,surgeon,,de,unknown,unknown
+74,,,,,,,,m,surgeon,,de,unknown,yes
+75,,,,,,,,m,surgeon,,de,unknown,yes
+76,,,,,,,,org,podiatrist,,de,unknown,unknown
+77,,,,,,,,m,GP,,de,unknown,unknown
+78,,,,,,,,m,other,,de,unknown,unknown
+79,,244500,,medwing.com interview 'ueber 244.500 Abonnenten auf Facebook' (page url not given),,,,f,other,,de,unknown,unknown
+80,,,,,,,unverified (not found),m,other,,de,no,unknown
+81,,,,,,,,org,nurse,,id,unknown,unknown
+82,,,,,,,,m,nurse,,id,unknown,unknown
+83,,,,,,,,m,nurse,,id,unknown,unknown
+84,,,,,,,,org,nurse,,id,yes,unknown
+85,,,,,,,,org,surgeon,,id,yes,unknown
+86,,,,,,,,unknown,surgeon,,id,no,unknown
+87,,,,,,,,unknown,surgeon,,id,yes,unknown
+88,,,,,,,,f,other,,id,unknown,unknown
+89,,,,,,,,m,GP,,id,no,unknown
+90,,,,,,,,f,other,,id,yes,unknown
+91,,,,,,,none (Douyin only; TikTok unavailable in mainland China),unknown,surgeon,,zh-CN,unknown,unknown
+92,,,,,,,none (Douyin only; TikTok unavailable in mainland China),unknown,surgeon,,zh-CN,unknown,unknown
+93,,,,,,,none (Douyin only; TikTok unavailable in mainland China),unknown,surgeon,,zh-CN,unknown,unknown
+94,,,,,,,none (Douyin only; TikTok unavailable in mainland China),unknown,surgeon,,zh-CN,yes,unknown
+95,,,,,,,none (Douyin only; TikTok unavailable in mainland China),unknown,other,,zh-CN,yes,unknown
+96,,,,,,,none (Douyin only; TikTok unavailable in mainland China),unknown,surgeon,,zh-CN,unknown,unknown
+97,,,,,,,none (Douyin only; TikTok unavailable in mainland China),unknown,surgeon,,zh-CN,yes,unknown
+98,,,,,,,none (Douyin only; TikTok unavailable in mainland China),f,surgeon,,zh-CN,unknown,unknown
+99,,,,,,,none (Douyin only; TikTok unavailable in mainland China),f,other,,zh-CN,no,unknown
+100,,,,,,,none (Douyin only; TikTok unavailable in mainland China),m,nurse,,zh-CN,no,unknown
+101,,,,,,,,m,surgeon,,ko,yes,no
+102,,,,,,,,unknown,other,,ko,yes,no
+103,,,,,,,,m,surgeon,,ko,unknown,no
+104,,,,,,,,m,surgeon,,ko,unknown,unknown
+105,,,,,,,unverified (not found),unknown,surgeon,,ko,yes,unknown
+106,,,,,,,unverified (not found),org,surgeon,,ko,yes,yes
+107,,,,,,,,m,surgeon,,ko,unknown,yes
+108,,,,,,,,unknown,other,,ko,unknown,yes
+109,,,,,,,,m,other,,ko,unknown,unknown
+110,https://www.facebook.com/doctorfriendsyo,1901,1901,search snippet of FB page '1.9K followers / 1901 likes',,,unverified (not found),org,other,,ko,unknown,unknown
