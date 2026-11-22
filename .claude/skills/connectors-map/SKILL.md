@@ -13,6 +13,7 @@ description: Which connector does what for Dr. Rajab's accounts, with account ID
 | Gamma | عروض، بوستات سوشيال، صفحات هبوط | يوجد ملف «TikTok Video Production: Diabetic Foot Clinic» |
 | Hugging Face | توليد صور، إزالة خلفية، TTS، OCR | حساب albrbar مجاني |
 | GitHub | albrbar/dr-rajab-legal — سياسة الخصوصية والشروط (GitHub Pages) | |
+| HubSpot | CRM لتتبع حجوزات واتساب (رسالة ← مريض) | حساب `drab` 49340791، خطة مجانية. Deal pipeline `default` «حجوزات العيادة». لا نشر سوشيال (لا صلاحية). |
 
 ## قرار التركيز (19 نوفمبر 2026)
 - **المنصة الأساسية: تيك توك — حساب العيادة @diabetic_foot_clinic** (عيادة القدم السكري والتقرحات).
@@ -24,3 +25,12 @@ description: Which connector does what for Dr. Rajab's accounts, with account ID
 - البحث: Firecrawl و Exa و Parallel Search متصلة (لا Perplexity Search؛ Perplexity Computer لاستيراد اللوحات فقط).
 - المرجع الرسمي للمواعيد: Notion https://app.notion.com/p/41ddc8c1ad23814d8f23ceeaacb04d1a
 - لا يوجد موصل إعلانات ممولة حالياً (Meta/TikTok Ads).
+
+## HubSpot — تسجيل الحجوزات
+- المسجّل: Claude، من رسائل المالك بصيغة «رسالة جديدة: الاسم الأول، المصدر، العيادة».
+- الخصوصية: الاسم الأول + المصدر + العيادة + المرحلة فقط. **لا تشخيص، لا صور، لا رقم هاتف، لا تفاصيل طبية.**
+- كل حالة = Deal في pipeline `default`. اسم الصفقة: `<الاسم الأول> — <YYYY-MM-DD>`.
+- المراحل (dealstage): رسالة جديدة `1496740189` · تم الرد `1496740190` · حجز مؤكد `1496740191` · حضر `1496740192` · لم يحضر/متابعة `1496740193`.
+- `lead_source_channel`: tiktok · facebook · landing · referral · other.
+- `clinic_location`: kuhaili · vittoria · alsayeh · alrabie · unknown.
+- القياس الأسبوعي (`data-analyst`): عدد الصفقات المنشأة = الرسائل؛ الصفقات في «حضر» = المرضى؛ مجمّعة حسب المصدر.
