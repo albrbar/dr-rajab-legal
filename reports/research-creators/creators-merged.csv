@@ -1,0 +1,111 @@
+id,country,name,group,pattern,profession,gender,language,tiktok_handle,followers,total_likes,videos,median_views,engagement_rate,avg_duration_s,has_whatsapp,top_video_views,fb_followers,patient_footage,booking_cta
+1,المكسيك,Podología Pies Perfectos (Zapopan),قدم,عرض الإجراءات,podiatrist,org,es-MX,piesperfectosmx,2477500,29930413,883,467915.5,0.03,86.92,1,49114364,294000,yes,yes
+2,المكسيك,Armando Calderón (Propies، Guadalajara),قدم,عرض الإجراءات,podiatrist,m,es-MX,armandocalderonav,1587052,26999957,2203,4800.5,0.06,56.79,1,58791571,,yes,yes
+3,المكسيك,Jorge Leija «Mi podólogo»,قدم,قصص حالات,podiatrist,m,es-MX,mipodologo,386134,4378836,1273,20098.5,0.02,101.93,0,93455,,yes,unknown
+4,المكسيك,Dra. Melissa Tejeida,قدم,كاسر الخرافات,other,f,es-MX,melissatejeida,276516,2670336,3366,3973,0.05,63.48,0,5975064,,unknown,unknown
+5,المكسيك,Raúl Ramírez «Podoraul» (Total Feet),قدم,يوميات الطبيب,podiatrist,m,es-MX,podoraul,164280,1587844,196,1411,0.06,29.02,0,17280280,,unknown,unknown
+6,المكسيك,Juan López @juanchimy,بديل,كوميديا,other,m,es-MX,juanchimy,3808586,202109909,602,267013,0.05,56.1,0,14352382,,no,unknown
+7,المكسيك,Dr. Polo Guerrero,بديل,كاسر الخرافات,GP,m,es-MX,pologuerrero.med,8575668,357341080,2730,66212,0.14,94.65,0,1728542,2730000,unknown,yes
+8,المكسيك,Dr. Miguel Padilla,بديل,التريندات,GP,m,es-MX,doctormiguelpadilla,8512181,300411955,1260,183320,0.11,55.74,0,38966067,,unknown,unknown
+9,المكسيك,Dr. Vic (Víctor Encina),بديل,يوميات الطبيب,surgeon,m,es-MX,,,,,,,,,,1000000,unknown,unknown
+10,المكسيك,Dr. Pepe Arana,بديل,تعاونات مع مشاهير,surgeon,m,es-MX,,,,,,,,,,,no,unknown
+11,البرازيل,Podóloga Kelly Freitas (São Luís-MA),قدم,عرض الإجراءات,podiatrist,f,pt-BR,podologakellyfreitas,2287698,22730075,170,17102,0.03,125.5,1,142473,99000,yes,yes
+12,البرازيل,Carmona Podologia,قدم,عرض الإجراءات,podiatrist,unknown,pt-BR,carmonapodologia,1237924,15792919,511,1313,0.03,58.26,0,62450,,yes,unknown
+13,البرازيل,Cravos.BR,قدم,التريندات,podiatrist,unknown,pt-BR,cravos.br.oficial,1177463,14051335,1345,26459.5,0.02,64.77,0,138137166,,unknown,unknown
+14,البرازيل,Cristiane Porto,قدم,يوميات الطبيب,podiatrist,f,pt-BR,cristianeportopodologa,1260128,24728409,1599,20709.5,0.03,313.95,0,133787,,unknown,no
+15,البرازيل,Podóloga Luana Caldin (Praia Grande-SP),قدم,يوميات الطبيب,podiatrist,f,pt-BR,podologaluanacaldin,585451,7547215,1089,69207,0.01,36.14,0,36121716,1800000,unknown,unknown
+16,البرازيل,Dr. Tiago Baumfeld,قدم,كاسر الخرافات,surgeon,m,pt-BR,dr.tiagobaumfeld,69,200,22,54,0.03,71.34,0,1916,,unknown,unknown
+17,البرازيل,Dr. Ricardo Kores,بديل,كوميديا,other,m,pt-BR,,,,,,,,,,,no,yes
+18,البرازيل,Bruno Baroni,بديل,كوميديا,other,m,pt-BR,,,,,,,,,,,no,unknown
+19,البرازيل,Drauzio Varella,بديل,تعاونات مع مشاهير,other,m,pt-BR,,,,,,,,,,3000000,no,unknown
+20,البرازيل,بديل ⚠️: Dr. Lucas Mattos,بديل,كاسر الخرافات,other,m,pt-BR,,,,,,,,,,,unknown,unknown
+21,أمريكا,Dr. Dana Figura (Brems),قدم,الرد على التعليقات,podiatrist,f,en-US,footdocdana,2566417,108069066,629,129550,0.05,26.6,0,28011957,,unknown,unknown
+22,أمريكا,Dr. Bradley Schaeffer,قدم,تعاونات مع مشاهير,surgeon,m,en-US,doctor.bradley,2106,7938,23,8697,0.02,60.87,0,599407,,no,unknown
+23,أمريكا,Dr. Ebonie Vincent,قدم,يوميات الطبيب,surgeon,unknown,en-US,,,,,,,,,,,unknown,unknown
+24,أمريكا,Dr. Miguel Cunha,قدم,تعاونات مع مشاهير,surgeon,m,en-US,,,,,,,,,,,no,unknown
+25,أمريكا,Dr. Kevin Jefferson,قدم,عرض الإجراءات,surgeon,m,en-US,dcfootdoctor,97323,986748,871,648,0.05,45.7,0,5065654,,yes,no
+26,أمريكا,Dr. Binh Nguyen,قدم,عرض الإجراءات,surgeon,m,en-US,,,,,,,,,,,yes,unknown
+27,أمريكا,Dr. Zach Thomas,قدم,لهجة محلية,podiatrist,m,en-US,footdoctorzach,47666,2078190,169,39765.5,0.03,51.89,0,2323033,,unknown,no
+28,أمريكا,Dr. Saylee Tulpule,قدم,كاسر الخرافات,podiatrist,f,en-US,,,,,,,,,,,unknown,unknown
+29,أمريكا,Dr. Tom Biernacki,قدم,كاسر الخرافات,other,m,en-US,,,,,,,,,,,unknown,unknown
+30,أمريكا,Dr. Gabrielle Hutcheson Donaldson (Dr. W,قدم,بث مباشر,other,f,en-US,diabetic.foot.files,898,265,152,161,0.01,53.08,0,384,,unknown,unknown
+31,بريطانيا,Paul Macaulay (Paul the Podiatrist),قدم,كاسر الخرافات,podiatrist,m,en (UK podiatrist based in Singapore),paulthepodiatrist,270510,2390282,717,4827.5,0.02,37.79,0,176213,,unknown,yes
+32,بريطانيا,Dina Gohil (The Foot Scraper),قدم,عرض الإجراءات,podiatrist,f,en-GB,,,,,,,,,,1000,yes,unknown
+33,بريطانيا,Dr Bharti Rajput MBE PhD (Doctor B),قدم,تعاونات مع مشاهير,podiatrist,f,en-GB,,,,,,,,,,,no,unknown
+34,بريطانيا,The Podiatry Clinic,قدم,عرض الإجراءات,podiatrist,org,en-GB,thepodclinics,30791,500332,189,8865.5,0.01,36.9,0,20792430,,yes,unknown
+35,بريطانيا,Ram Singh,قدم,كاسر الخرافات,podiatrist,m,en-GB,,,,,,,,,,,unknown,unknown
+36,بريطانيا,Dr Karan Rajan,بديل,يوميات الطبيب,surgeon,m,en-GB,dr.karanr,5361359,366310056,3293,37241.5,0.09,72.42,0,690464,,unknown,unknown
+37,بريطانيا,Nurse Even (John Steven Soriano),بديل,لهجة محلية,nurse,m,en/tl (Filipino-British),,,,,,,,,,,unknown,unknown
+38,بريطانيا,Dr Maddy Lucy Dann,بديل,كوميديا,other,f,en-GB,maddylucydann,1507471,76628877,2388,61258.0,0.12,90.22,0,9572634,,no,unknown
+39,بريطانيا,Dr Rangan Chatterjee,بديل,تعاونات مع مشاهير,GP,m,en-GB,,,,,,,,,,290000,no,unknown
+40,بريطانيا,Dr Julie Smith,بديل,يوميات الطبيب,other,f,en-GB,,,,,,,,,,,unknown,unknown
+41,تركيا,أ.د. محمد كسكين «Kardiyobey»,بديل,كاسر الخرافات,other,m,tr,kardiyobey,688643,13626047,1324,449027.0,0.04,80.55,1,1414542,675000,unknown,unknown
+42,تركيا,أ.د. طاهر أوغوت FOOTIST,قدم,كاسر الخرافات,surgeon,m,tr,prof.dr.tahirogutt,1629,11340,5,163,0.03,34.72,0,390,,unknown,unknown
+43,تركيا,Ortopedi  Diyabetik Ayak ve Yara Tedavis,قدم,قصص حالات,surgeon,org,tr,,,,,,,,,,,yes,unknown
+44,تركيا,أ.د. أوزغور كيليتشكسمز,قدم,عرض الإجراءات,other,m,tr,profozgurkilickesmez,6336,27126,200,301.0,0.02,23.92,0,4397,,yes,unknown
+45,تركيا,بوديولوغ ديريا تشوبان,قدم,يوميات الطبيب,podiatrist,f,tr,podologdc,1601,40058,225,338.5,0.01,97.22,0,914257,,unknown,unknown
+46,تركيا,بوديولوغ علي ألتايلار,قدم,عرض الإجراءات,podiatrist,m,tr,podolog.alialtaylar,1243,5228,56,1331.5,0.02,41.87,1,40501,,yes,unknown
+47,تركيا,د. فاتح كيرار,بديل,تعاونات مع مشاهير,surgeon,m,tr,,,,,,,,,,,no,unknown
+48,تركيا,د. بانو كوتشوك بولات,بديل,التريندات,surgeon,f,tr,,,,,,,,,,,unknown,unknown
+49,تركيا,أ.د. عثمان مفتوأوغلو,بديل,لهجة محلية,other,m,tr,,,,,,,,,,30910,unknown,unknown
+50,تركيا,أ.د. مصطفى هاكان زور,قدم,قصص حالات,surgeon,m,tr,,,,,,,,,,,yes,unknown
+51,مصر,د. حسام المهدي,قدم,قصص حالات,surgeon,m,ar-EG,drhossamelmahdy,138393,258679,263,196,0.02,32.93,0,1310462,198000,yes,yes
+52,مصر,أ.د. محمد مختار,قدم,عرض الإجراءات,surgeon,m,ar-EG,prof.dr.mohamedmokhtar,29402,438712,79,200591,0,52.55,0,502492,125078,yes,unknown
+53,مصر,د. محمد مجدي بدر Wound OnCall,قدم,لهجة محلية,other,m,ar-EG,wound_oncall,54478,187716,721,322,0.02,287.66,0,1892595,6668,unknown,yes
+54,مصر,د. عبد الرحيم فتحي (قنا),قدم,لهجة محلية,surgeon,m,ar-EG,,,,,,,,,,,unknown,unknown
+55,مصر,ياسين المحجوب,بديل,كوميديا,other,m,ar-EG,dr.yassinelmahgoub,562333,17072888,1107,26159,0.08,64.03,0,13201574,,no,unknown
+56,مصر,د. هشام عبد القادر «سوبر إتش»,بديل,يوميات الطبيب,surgeon,m,ar-EG,drheshamabdelkader,658622,7015215,2664,6116,0.06,21.47,0,8592972,309580,unknown,unknown
+57,مصر,د. شريف جمال,بديل,يوميات الطبيب,GP,m,ar-EG,drsherifgamal,2328548,26815449,342,176477.5,0.06,65.16,0,11906828,27000,unknown,unknown
+58,مصر,د. محمد دسوقي,بديل,الرد على التعليقات,other,m,ar-EG,dr_desoki,1838813,11699182,496,380602,0.03,50.46,1,22542254,,unknown,unknown
+59,مصر,د. وائل حيان,بديل,عرض الإجراءات,other,m,ar-EG,,,,,,,,,,,yes,unknown
+60,مصر,د. أحمد أشرف,بديل,كاسر الخرافات,other,m,ar-EG,dr_ahmed_ashraf,5348811,59695158,4826,9283,0.04,39.93,0,22542,4300000,unknown,unknown
+61,المغرب,Locamed Podologie,قدم,عرض الإجراءات,podiatrist,org,fr,,,,,,,,,,2000,yes,yes
+62,المغرب,Dr Anis Achargui,قدم,بث مباشر,surgeon,m,fr/ar,,,,,,,,,,6200,unknown,unknown
+63,المغرب,Mouna Ben Mokhtar,قدم,غير مصنّف,podiatrist,f,fr,,,,,,,,,,,unknown,unknown
+64,المغرب,Dr Amina Ait Sidi Ali,قدم,غير مصنّف,podiatrist,f,fr,,,,,,,,,,,unknown,unknown
+65,المغرب,Adnane Lahlou,قدم,غير مصنّف,podiatrist,m,fr,,,,,,,,,,,unknown,unknown
+66,المغرب,Doctor.Mouad,بديل,كاسر الخرافات,GP,m,ar-MA (Darija),dr_mouad,675240,6534292,293,488958,0.05,38.92,0,4623235,1304760,unknown,unknown
+67,المغرب,Oubeid Allah Hlal,بديل,كوميديا,other,m,ar-MA/fr,dr.oubeidallahofficial,563085,3688405,551,126878,0.05,91.37,0,3405142,126545,no,unknown
+68,المغرب,Dr. Aymane Boubouh,بديل,يوميات الطبيب,surgeon,m,ar-MA (Darija),,,,,,,,,,485000,unknown,unknown
+69,المغرب,Dr. Oualid Allali,بديل,يوميات الطبيب,GP,m,ar-MA/fr,,,,,,,,,,,unknown,unknown
+70,المغرب,Dr Ismail Aziz,بديل,كاسر الخرافات,other,m,ar-MA/fr,dr.ismailaziz,505051,4685520,415,112214.5,0.04,31.56,0,2427218,,unknown,unknown
+71,ألمانيا,Dr.-medic Manuel Nastai,قدم,الرد على التعليقات,surgeon,m,de,drnastai,163,1685,71,323.0,0.02,47.27,0,711,,unknown,unknown
+72,ألمانيا,Dr. med. Mellany Galla,قدم,غير مصنّف,surgeon,f,de,,,,,,,,,,,unknown,unknown
+73,ألمانيا,Dany Xavier Lopes Ribeiro,قدم,غير مصنّف,surgeon,m,de,,,,,,,,,,,unknown,unknown
+74,ألمانيا,Dr. Heiko Durst,قدم,غير مصنّف,surgeon,m,de,,,,,,,,,,,unknown,yes
+75,ألمانيا,Dr. Wolfram Wenz,قدم,غير مصنّف,surgeon,m,de,,,,,,,,,,,unknown,yes
+76,ألمانيا,Konzept Fuß,قدم,غير مصنّف,podiatrist,org,de,,,,,,,,,,,unknown,unknown
+77,ألمانيا,Doc Felix,بديل,يوميات الطبيب,GP,m,de,doc.felix,976080,21480838,1524,89078.0,0.06,58.9,0,7197114,,unknown,unknown
+78,ألمانيا,Dr. Konstantin Wagner,بديل,كاسر الخرافات,other,m,de,gynaeko.logisch,58587,631413,116,22479.0,0.04,99.26,0,107368,,unknown,unknown
+79,ألمانيا,Dr. Carola Holzner (Doc Caro),بديل,يوميات الطبيب,other,f,de,doc.caro.holzner,4147,9884,4,14993.0,0.07,28.56,0,142827,244500,unknown,unknown
+80,ألمانيا,Aljosha Muttardi,بديل,تعاونات مع مشاهير,other,m,de,,,,,,,,,,,no,unknown
+81,إندونيسيا,Hidayah Medical Shop,قدم,يوميات الطبيب,nurse,org,id,,,,,,,,,,,unknown,unknown
+82,إندونيسيا,Ners Pandu,قدم,كاسر الخرافات,nurse,m,id,ners_pandu,3029,18108,43,1758.5,0.03,31.98,1,111471,,unknown,unknown
+83,إندونيسيا,Ns. Fajrul Akbar,قدم,التريندات,nurse,m,id,ns_ajul1,13621,281554,861,7307.0,0.04,213.01,0,369824,,unknown,unknown
+84,إندونيسيا,Yayasan Kaki Kita Sukasada (I Made Aditi,قدم,قصص حالات,nurse,org,id,,,,,,,,,,,yes,unknown
+85,إندونيسيا,RS Regina Maris (د. Charles، ortho foot ,قدم,عرض الإجراءات,surgeon,org,id,rs.reginamaris,6270,46151,553,1152.5,0.02,68.66,1,266281,,yes,unknown
+86,إندونيسيا,dr. Priza,بديل,كوميديا,surgeon,unknown,id,dr.priza,40979,707892,271,764.5,0.04,92.03,1,4051925,,no,unknown
+87,إندونيسيا,dr. Made Wirabhawa,بديل,عرض الإجراءات,surgeon,unknown,id,ortopedi_bogor,54311,1342958,173,98965.0,0.03,52.31,0,23796032,,yes,unknown
+88,إندونيسيا,dr. Audrey Natalia,بديل,كاسر الخرافات,other,f,id,dr.audrey_natalia,272959,10142041,960,17499.5,0.03,79.78,0,13797561,,unknown,unknown
+89,إندونيسيا,dr. Farhan Zubedi,بديل,أنيميشن,GP,m,id,,,,,,,,,,,no,unknown
+90,إندونيسيا,dr. Amira Abdat SpOG,بديل,قصص حالات,other,f,id,dokteramiraobgyn,2247847,60751461,1842,22639,0.05,125.44,0,215774,,yes,unknown
+91,الصين,方真华,قدم,يوميات الطبيب,surgeon,unknown,zh-CN,,,,,,,,,,,unknown,unknown
+92,الصين,方圆 (مستشفى 中山 الفودان، أوعية دموية، قدم ,قدم,لهجة محلية,surgeon,unknown,zh-CN,,,,,,,,,,,unknown,unknown
+93,الصين,高磊,قدم,كاسر الخرافات,surgeon,unknown,zh-CN,,,,,,,,,,,unknown,unknown
+94,الصين,田济玮,قدم,عرض الإجراءات,surgeon,unknown,zh-CN,,,,,,,,,,,yes,unknown
+95,الصين,佘恒,قدم,قصص حالات,other,unknown,zh-CN,,,,,,,,,,,yes,unknown
+96,الصين,张磊 (أوعية دموية),قدم,التريندات,surgeon,unknown,zh-CN,,,,,,,,,,,unknown,unknown
+97,الصين,曹广超 (مستشفى 徐州仁慈),قدم,عرض الإجراءات,surgeon,unknown,zh-CN,,,,,,,,,,,yes,unknown
+98,الصين,任甜甜,قدم,الرد على التعليقات,surgeon,f,zh-CN,,,,,,,,,,,unknown,unknown
+99,الصين,口口医生 吕艳思,بديل,كوميديا,other,f,zh-CN,,,,,,,,,,,no,unknown
+100,الصين,二蛋叔叔 王业兴,بديل,ثنائي أو عائلة,nurse,m,zh-CN,,,,,,,,,,,no,unknown
+101,كوريا,김범수교수의 발편한세상,قدم,عرض الإجراءات,surgeon,m,ko,,,,,,,,,,,yes,no
+102,كوريا,풋풋한Lee쌤 Fresh Foot (بديل: ليست طبيبة، مر,بديل,عرض الإجراءات,other,unknown,ko,lee.fresh.foot,2512,37104,43,2235.0,0.01,58.98,0,3357,,yes,no
+103,كوريا,족부TV 서상교,قدم,بث مباشر,surgeon,m,ko,,,,,,,,,,,unknown,no
+104,كوريا,족발닥터김 김지범,قدم,يوميات الطبيب,surgeon,m,ko,,,,,,,,,,,unknown,unknown
+105,كوريا,닥터슈 박은수 «발책부록»,قدم,قصص حالات,surgeon,unknown,ko,,,,,,,,,,,yes,unknown
+106,كوريا,두발로병원,قدم,قصص حالات,surgeon,org,ko,,,,,,,,,,,yes,yes
+107,كوريا,연세건우병원 박의현,قدم,كاسر الخرافات,surgeon,m,ko,,,,,,,,,,,unknown,yes
+108,كوريا,닥터호우 @dr.howoo (بديل),بديل,يوميات الطبيب,other,unknown,ko,dr.howoo,401394,4796879,1816,14688,0.03,67.56,1,64494,,unknown,yes
+109,كوريا,강남허준 박용환 @drharang (بديل),بديل,الرد على التعليقات,other,m,ko,drharang,2534429,16825527,875,2628.0,0.04,33.7,0,10472121,,unknown,unknown
+110,كوريا,닥터프렌즈,بديل,لهجة محلية,other,org,ko,,,,,,,,,,1901,unknown,unknown
