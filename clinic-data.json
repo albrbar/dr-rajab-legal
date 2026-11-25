@@ -1,0 +1,45 @@
+{
+  "project": "DRAB",
+  "doctor": {
+    "name": { "ar": "د. رجب البربار", "en": "Dr. Rajab Albarbar" },
+    "title": { "ar": "استشاري جراحة القدم السكري", "en": "Diabetic Foot Surgery Consultant" }
+  },
+  "contact": {
+    "phone": "0931210939",
+    "whatsapp_international": "218931210939"
+  },
+  "clinics": [
+    {
+      "id": "kuhaili",
+      "name": { "ar": "مصحة الكحيلي", "en": "Al-Kuhaili Clinic" },
+      "area": { "ar": "عين زارة", "en": "Ain Zara" },
+      "days": { "ar": "السبت إلى الأربعاء", "en": "Saturday to Wednesday" },
+      "hours": { "ar": "من 8:00 مساءً", "en": "From 8:00 PM" },
+      "free": false
+    },
+    {
+      "id": "vittoria",
+      "name": { "ar": "مصحة فيتوريا", "en": "Vittoria Clinic" },
+      "area": { "ar": "زناتة", "en": "Zanata" },
+      "days": { "ar": "السبت والاثنين والأربعاء", "en": "Saturday, Monday and Wednesday" },
+      "hours": { "ar": "5:00 مساءً", "en": "5:00 PM" },
+      "free": false
+    },
+    {
+      "id": "rabee",
+      "name": { "ar": "مصحة الربيع", "en": "Al-Rabee Clinic" },
+      "area": { "ar": "وادي الربيع", "en": "Wadi Al-Rabee" },
+      "days": { "ar": "الخميس", "en": "Thursday" },
+      "hours": { "ar": "9:00 صباحاً – 12:00 منتصف الليل", "en": "9:00 AM – 12:00 AM (midnight)" },
+      "free": false
+    },
+    {
+      "id": "saeh",
+      "name": { "ar": "مستشفى السائح القروي", "en": "Al-Saeh Rural Hospital" },
+      "area": { "ar": "عيادة مجانية", "en": "Free clinic" },
+      "days": { "ar": "الثلاثاء والأربعاء", "en": "Tuesday and Wednesday" },
+      "hours": { "ar": "9:00 صباحاً – 1:00 ظهراً", "en": "9:00 AM – 1:00 PM" },
+      "free": true
+    }
+  ]
+}
