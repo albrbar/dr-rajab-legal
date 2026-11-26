@@ -1,5 +1,5 @@
 {
-  "slug": "banner-rollup-60x160",
+  "slug": "banner-rollup-60x160-owner-portrait",
   "credentials": [
     "بكالوريوس الطب والجراحة العامة — جامعة مصراتة",
     "دبلومة الجراحة العامة والمناظير",
@@ -18,7 +18,12 @@
     "احمرار أو تورم أو سخونة",
     "إفرازات أو رائحة أو تغيّر لون"
   ],
-  "places": ["kahili", "vittoria", "saeh"],
+  "places": [
+    "kahili",
+    "vittoria",
+    "saeh"
+  ],
   "qrUrl": "https://albrbar.github.io/dr-rajab-legal/?src=qr",
-  "portraitScale": 1
+  "portraitScale": 1,
+  "portrait": "../../media/source/dr-rajab-portrait-owner-camera-cropped.png"
 }
