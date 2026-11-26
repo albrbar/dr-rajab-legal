@@ -56,9 +56,18 @@ const ZOOM = (PDF_W_MM * PX_PER_MM_CSS) / CANVAS_W;
   console.log('OK', path.relative(ROOT, prev));
 
   // print PDF: zoom canvas to 610×1610 mm with bleed
-  await page.evaluate(z => { document.getElementById('canvas').style.zoom = z; document.documentElement.style.width = 'auto'; }, ZOOM);
-  const pdf = path.join(outDir, `${slug}-print-610x1610mm-bleed.pdf`);
-  await page.pdf({ path: pdf, width: PDF_W_MM + 'mm', height: PDF_H_MM + 'mm', printBackground: true, pageRanges: '1', preferCSSPageSize: true });
+  // Trim size 600×1600 mm (exact requested), bleed removed by offsetting the canvas by 10 design px
+  const TRIM_W_MM = 600, TRIM_H_MM = 1600;
+  const s = (TRIM_W_MM * PX_PER_MM_CSS) / 1200;   // CSS px per design px on the trim area
+  await page.evaluate(({ s, W, H }) => {
+    const c = document.getElementById('canvas');
+    c.style.zoom = s; c.style.position = 'absolute';
+    c.style.left = (-10 * s) + 'px'; c.style.top = (-10 * s) + 'px';
+    document.documentElement.style.width = W + 'mm'; document.body.style.width = W + 'mm';
+    document.documentElement.style.height = H + 'mm'; document.body.style.height = H + 'mm';
+  }, { s, W: TRIM_W_MM, H: TRIM_H_MM });
+  const pdf = path.join(outDir, `${slug}-PRINT-600x1600mm-trim.pdf`);
+  await page.pdf({ path: pdf, width: TRIM_W_MM + 'mm', height: TRIM_H_MM + 'mm', printBackground: true, pageRanges: '1', preferCSSPageSize: false, margin: { top: 0, right: 0, bottom: 0, left: 0 } });
   console.log('OK', path.relative(ROOT, pdf));
   await browser.close();
 })();
