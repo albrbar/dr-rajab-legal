@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<style>
+/* Roll-up 60×160 cm. Design units = px at 1220×3220 (1200×3200 trim + 10px bleed per side; 20px = 1 cm). */
+@font-face{font-family:Cairo;font-weight:400;src:url(fonts/cairo-arabic-400-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E}
+@font-face{font-family:Cairo;font-weight:700;src:url(fonts/cairo-arabic-700-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E}
+@font-face{font-family:Cairo;font-weight:900;src:url(fonts/cairo-arabic-900-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E}
+@font-face{font-family:Cairo;font-weight:400;src:url(fonts/cairo-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2013-2014}
+@font-face{font-family:Cairo;font-weight:700;src:url(fonts/cairo-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2013-2014}
+@font-face{font-family:Cairo;font-weight:900;src:url(fonts/cairo-latin-900-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2013-2014}
+@page{size:610mm 1610mm;margin:0}
+:root{--navy:#1a2b4c;--navy2:#22375e;--gold:#c5a059;--teal:#2bb3a3;--soft:#d9e2f0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--navy);width:1220px;height:3220px;overflow:hidden}
+body{font-family:Cairo,sans-serif;color:#fff}
+#canvas{position:relative;width:1220px;height:3220px;background:radial-gradient(120% 40% at 100% 0%,#24406e 0%,var(--navy) 65%)}
+#trim{position:absolute;left:10px;top:10px;width:1200px;height:3200px}
+.abs{position:absolute;left:0;right:0}
+
+/* HEADER 0–300 */
+.head{top:0;height:300px;display:flex;align-items:center;gap:36px;padding:0 60px}
+.head img{width:250px;height:250px;flex:none}
+.head .nm{font-size:76px;font-weight:900;line-height:1.15}
+.head .tg{font-size:40px;font-weight:700;color:var(--gold);margin-top:8px}
+
+/* HERO 300–1200 (eye-level focal zone 100–145 cm) */
+.hero{top:300px;height:900px;display:flex;align-items:center;gap:50px;padding:0 60px}
+.hero .tx{flex:1;min-width:0;display:flex;flex-direction:column;gap:14px}
+.kick{align-self:flex-start;background:var(--gold);color:var(--navy);font-weight:900;font-size:38px;padding:8px 34px;border-radius:999px}
+.hook{font-size:78px;font-weight:900;line-height:1.2}
+.hook em{font-style:normal;color:var(--gold)}
+.sub{font-size:34px;color:var(--soft);line-height:1.5}
+.cred{list-style:none;display:flex;flex-direction:column;gap:6px;margin-top:0}
+.cred li{font-size:32px;font-weight:700;line-height:1.35;padding-right:30px;position:relative}
+.cred li::before{content:"";position:absolute;right:0;top:16px;width:16px;height:16px;border-radius:50%;background:var(--teal)}
+.portrait{flex:none;width:430px;height:560px;border-radius:40px;overflow:hidden;border:6px solid var(--gold);position:relative;background:#e9f0f7}
+.portrait img{position:absolute;width:1040px;left:-410px;top:-190px;transform-origin:50% 50%}
+
+/* SERVICES + WARNING SIGNS 1200–2300 */
+.svc{top:1200px;height:1100px;display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:50px 60px 0}
+.box{background:var(--navy2);border:3px solid rgba(197,160,89,.55);border-radius:36px;padding:40px 44px}
+.box h2{font-size:52px;font-weight:900;margin-bottom:26px}
+.box h2 span{color:var(--gold)}
+.box ul{list-style:none;display:flex;flex-direction:column;gap:22px}
+.box li{font-size:46px;font-weight:700;line-height:1.35;padding-right:40px;position:relative}
+.box li::before{content:"";position:absolute;right:0;top:14px;width:20px;height:20px;border-radius:50%;background:var(--teal)}
+.box.warn{border-color:#e0a04a}
+.box.warn li::before{background:#e0a04a}
+
+/* CTA + FOOTER 2300–2900 */
+.cta{top:2290px;height:580px;display:grid;grid-template-columns:1fr 300px;gap:36px;padding:0 60px;align-items:center}
+.places{display:flex;flex-direction:column;gap:12px;min-width:0}
+.place{min-width:0;background:rgba(255,255,255,.08);border:2px solid rgba(197,160,89,.5);border-radius:24px;padding:12px 26px;display:flex;justify-content:space-between;align-items:center;gap:20px}
+.place .pn{font-size:34px;font-weight:900;color:var(--gold);line-height:1.2}
+.place .pd{font-size:25px;color:var(--soft);margin-top:4px;line-height:1.3}
+.place .ph{direction:ltr;unicode-bidi:isolate;font-size:40px;font-weight:900;letter-spacing:2px;white-space:nowrap}
+.qrbox{background:#fff;color:var(--navy);border-radius:30px;padding:22px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px}
+.qrbox img{width:230px;height:230px}
+.qrbox b{font-size:32px;font-weight:900}
+.disc{position:absolute;left:60px;right:60px;top:2878px;font-size:26px;color:#aab6cc;text-align:center}
+</style>
+</head>
+<body>
+<div id="canvas"><div id="trim">
+  <!-- HEADER -->
+  <div class="abs head">
+    <img src="../../media/source/logo-approved-badge.png" alt="">
+    <div><div class="nm">عيادة د. رجب البربار</div><div class="tg">جراحة القدم السكري والجروح المعقدة</div></div>
+  </div>
+
+  <!-- HERO -->
+  <div class="abs hero">
+    <div class="tx">
+      <div class="kick">القدم السكري</div>
+      <div class="hook">جرح في قدمك <em>لا يلتئم</em>؟</div>
+      <div class="sub">لا تنتظر حتى يتحول الجرح إلى مشكلة.</div>
+      <ul class="cred" id="cred"></ul>
+    </div>
+    <div class="portrait"><img id="pimg" src="../../media/dr-rajab-clinic-ultrasound.jpg" alt="د. رجب البربار"></div>
+  </div>
+
+  <!-- SERVICES + WARNING SIGNS -->
+  <div class="abs svc">
+    <div class="box"><h2>خدماتنا <span>·</span></h2><ul id="svc"></ul></div>
+    <div class="box warn"><h2>راجع الطبيب <span>إذا</span></h2><ul id="warn"></ul></div>
+  </div>
+
+  <!-- CTA -->
+  <div class="abs cta">
+    <div class="places" id="places"></div>
+    <div class="qrbox"><b>احجز أو استفسر</b><img id="qr" alt=""><span style="font-size:26px;font-weight:700">albrbar.github.io</span></div>
+  </div>
+
+  <div class="disc">المعلومات للتوعية ولا تغني عن الكشف الطبي.</div>
+</div></div>
+<script>
+// Content is injected by render-banner.js (single source: spec JSON). Placeholders only here.
+function fill(s){
+  const esc=t=>String(t).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  document.getElementById('cred').innerHTML=s.credentials.map(x=>'<li>'+esc(x)+'</li>').join('');
+  document.getElementById('svc').innerHTML=s.services.map(x=>'<li>'+esc(x)+'</li>').join('');
+  document.getElementById('warn').innerHTML=s.warnings.map(x=>'<li>'+esc(x)+'</li>').join('');
+  document.getElementById('places').innerHTML=s.places.map(p=>
+    '<div class="place"><div><div class="pn">'+esc(p.name)+'</div><div class="pd">'+esc(p.area)+' — '+esc(p.days)+' — '+esc(p.time)+'</div></div><div class="ph">'+esc(p.phone)+'</div></div>').join('');
+  document.getElementById('qr').src=s.qr;
+  const im=document.getElementById('pimg'); im.style.transform='translate('+(s.portraitShift||[0,0]).join('px,')+'px) scale('+(s.portraitScale||1)+')';
+}
+</script>
+</body>
+</html>
