@@ -28,14 +28,15 @@ const ZOOM = (PDF_W_MM * PX_PER_MM_CSS) / CANVAS_W;
     if (!facts.includes(c.phone)) errors.push(`phone ${c.phone} (${k}) not in content/facts.md`);
     return c;
   }).filter(Boolean);
-  if (places.length === 0) errors.push('no places');
+  if (!spec.phoneOnly && places.length === 0) errors.push('no places');
   if (!spec.credentials || spec.credentials.length > 4) errors.push('credentials: 1–4 items');
   if (!spec.services || spec.services.length > 6) errors.push('services: max 6');
   if (!spec.warnings || spec.warnings.length > 4) errors.push('warnings: max 4');
   if (errors.length) { console.error('REJECTED:\n- ' + errors.join('\n- ')); process.exit(1); }
 
   const qr = await QR.toDataURL(spec.qrUrl, { margin: 1, width: 800, errorCorrectionLevel: 'M' });
-  const data = { ...spec, places, qr };
+  const data = { ...spec, places: spec.phoneOnly ? [{ name: 'للحجز والاستفسار', area: '', days: '', time: '', phone: spec.phoneOnly }] : places, qr };
+  if (spec.phoneOnly && !facts.includes(spec.phoneOnly)) { console.error('REJECTED: phone not in content/facts.md'); process.exit(1); }
 
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: CANVAS_W, height: CANVAS_H }, deviceScaleFactor: 1 });

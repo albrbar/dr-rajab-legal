@@ -103,7 +103,7 @@ function fill(s){
   document.getElementById('svc').innerHTML=s.services.map(x=>'<li>'+esc(x)+'</li>').join('');
   document.getElementById('warn').innerHTML=s.warnings.map(x=>'<li>'+esc(x)+'</li>').join('');
   document.getElementById('places').innerHTML=s.places.map(p=>
-    '<div class="place"><div><div class="pn">'+esc(p.name)+'</div><div class="pd">'+esc(p.area)+' — '+esc(p.days)+' — '+esc(p.time)+'</div></div><div class="ph">'+esc(p.phone)+'</div></div>').join('');
+    '<div class="place"><div><div class="pn">'+esc(p.name)+'</div>'+([p.area,p.days,p.time].filter(Boolean).length?'<div class="pd">'+[p.area,p.days,p.time].filter(Boolean).map(esc).join(' — ')+'</div>':'')+'</div><div class="ph">'+esc(p.phone)+'</div></div>').join('');
   document.getElementById('qr').src=s.qr;
   if(s.portrait)document.getElementById('pimg').src=s.portrait;const im=document.getElementById('pimg'); im.style.transform='translate('+(s.portraitShift||[0,0]).join('px,')+'px) scale('+(s.portraitScale||1)+')';
 }
