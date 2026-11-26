@@ -5,3 +5,9 @@
 - أول تعليق: كل حساباتي ورقم الواتساب: albrbar.github.io/dr-rajab-legal
 - plannerUrl: https://app.metricool.com/planner/calendar?blogId=6495522&openWithPostUuid=3871452364148001223
 - ملاحظة: موعد يوتيوب 16:00 فات، فانضم ليوتيوب في 18:10.
+
+## تم النشر (تحقق 19:32)
+- فيسبوك: https://facebook.com/reel/1528346413690915
+- إنستغرام: https://www.instagram.com/reel/DgNgVJhprbx/
+- يوتيوب: https://www.youtube.com/shorts/liGBHIwVrTk
+- تيك توك (id 443336079، جدولة شات جي بي تي): https://www.tiktok.com/@diabetic_foot_clinic/video/7712513425590521089
