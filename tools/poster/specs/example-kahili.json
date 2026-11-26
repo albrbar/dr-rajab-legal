@@ -1,0 +1,11 @@
+{
+  "slug": "example-kahili",
+  "kicker": "القدم السكري",
+  "title": "جرح في قدمك *لا يلتئم*؟",
+  "body": "لا تنتظر. الكشف المبكر يقلل خطر المضاعفات.",
+  "bullets": ["تقييم الجرح وتنظيفه", "خطة علاج واضحة", "متابعة منتظمة"],
+  "clinic": "kahili",
+  "qrUrl": "https://albrbar.github.io/dr-rajab-legal/?src=qr",
+  "qrLabel": "امسح للحجز",
+  "formats": ["square", "portrait", "story", "a4"]
+}

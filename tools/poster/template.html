@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Cairo;font-weight:400;src:url(fonts/cairo-arabic-400-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E}
+@font-face{font-family:Cairo;font-weight:700;src:url(fonts/cairo-arabic-700-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E}
+@font-face{font-family:Cairo;font-weight:900;src:url(fonts/cairo-arabic-900-normal.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFF,U+200C-200E}
+@font-face{font-family:Cairo;font-weight:400;src:url(fonts/cairo-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2013-2014}
+@font-face{font-family:Cairo;font-weight:700;src:url(fonts/cairo-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2013-2014}
+@font-face{font-family:Cairo;font-weight:900;src:url(fonts/cairo-latin-900-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+2013-2014}
+:root{--navy:#1a2b4c;--gold:#c5a059;--teal:#2bb3a3;--ink:#fff;--soft:#d9e2f0;--u:1px}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--navy)}
+body{font-family:Cairo,sans-serif;color:var(--ink)}
+#p{position:relative;overflow:hidden;display:flex;flex-direction:column;
+  background:radial-gradient(120% 70% at 100% 0%,#24406e 0%,var(--navy) 60%);padding:calc(70*var(--u)) calc(70*var(--u)) calc(60*var(--u))}
+#p::after{content:"";position:absolute;left:-22%;top:-14%;width:60%;aspect-ratio:1;border-radius:50%;border:calc(3*var(--u)) solid rgba(197,160,89,.22);pointer-events:none}
+.top{display:flex;align-items:center;gap:calc(22*var(--u))}
+.top img{width:calc(110*var(--u));height:calc(110*var(--u));border-radius:50%;background:#fff;padding:calc(6*var(--u))}
+.dr b{display:block;font-size:calc(40*var(--u));font-weight:900;line-height:1.2}
+.dr span{font-size:calc(26*var(--u));color:var(--gold);font-weight:700}
+.main{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:calc(26*var(--u)*var(--k,1));position:relative;z-index:1}
+.kick{align-self:flex-start;background:var(--gold);color:var(--navy);font-weight:900;font-size:calc(34*var(--u)*var(--k,1));padding:calc(8*var(--u)) calc(30*var(--u));border-radius:999px}
+h1{font-size:calc(var(--tsize,96)*var(--u)*var(--k,1));font-weight:900;line-height:1.25}
+h1 em{font-style:normal;color:var(--gold)}
+.body{font-size:calc(40*var(--u)*var(--k,1));line-height:1.6;color:var(--soft)}
+ul{list-style:none;display:flex;flex-direction:column;gap:calc(16*var(--u)*var(--k,1))}
+li{font-size:calc(40*var(--u)*var(--k,1));font-weight:700;display:flex;gap:calc(18*var(--u));align-items:flex-start;line-height:1.45}
+li::before{content:"";flex:0 0 calc(22*var(--u)*var(--k,1));height:calc(22*var(--u)*var(--k,1));margin-top:calc(19*var(--u)*var(--k,1));border-radius:50%;background:var(--teal)}
+.card{position:relative;z-index:1;flex:none;margin-top:calc(20*var(--u));display:flex;gap:calc(30*var(--u));align-items:center;background:#22375e;border:calc(2*var(--u)) solid rgba(197,160,89,.55);border-radius:calc(34*var(--u));padding:calc(28*var(--u)) calc(34*var(--u))}
+.card .info{flex:1}
+.cn{font-size:calc(42*var(--u));font-weight:900;color:var(--gold)}
+.ca{font-size:calc(28*var(--u));color:var(--soft)}
+.ct{font-size:calc(32*var(--u));font-weight:700;margin-top:calc(6*var(--u))}
+.ph{direction:ltr;unicode-bidi:isolate;display:inline-block;font-size:calc(60*var(--u));font-weight:900;letter-spacing:calc(2*var(--u));margin-top:calc(8*var(--u))}
+.qr{background:#fff;border-radius:calc(20*var(--u));padding:calc(12*var(--u));text-align:center;color:var(--navy);font-size:calc(22*var(--u));font-weight:700}
+.qr img{display:block;width:calc(230*var(--u));height:calc(230*var(--u))}
+.disc{position:relative;z-index:1;margin-top:calc(22*var(--u));font-size:calc(22*var(--u));color:#aab6cc;text-align:center}
+</style>
+</head>
+<body>
+<div id="p">
+  <div class="top"><img src="../../media/logo.png" alt=""><div class="dr"><b>د. رجب البربار</b><span>جراحة القدم السكري والجروح المعقدة</span></div></div>
+  <div class="main">
+    <div class="kick" id="kick"></div>
+    <h1 id="title"></h1>
+    <div class="body" id="body"></div>
+    <ul id="bullets"></ul>
+  </div>
+  <div class="card" id="card">
+    <div class="info"><div class="cn" id="cn"></div><div class="ca" id="ca"></div><div class="ct" id="ct"></div><div class="ph" id="ph"></div></div>
+    <div class="qr" id="qrbox"><img id="qr" alt=""><div id="qrl">امسح للحجز</div></div>
+  </div>
+  <div class="disc">المعلومات للتوعية ولا تغني عن الكشف الطبي.</div>
+</div>
+<script>
+// render(spec) is called by render.js after load
+function esc(s){return String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+function render(s){
+  const p=document.getElementById('p');
+  p.style.width=s.w+'px';p.style.height=s.h+'px';
+  document.documentElement.style.setProperty('--u',(s.w/1080)+'px');
+  if(s.titleSize)document.documentElement.style.setProperty('--tsize',s.titleSize);
+  const set=(id,v)=>{const e=document.getElementById(id);if(v){e.innerHTML=v}else{e.style.display='none'}};
+  set('kick',s.kicker&&esc(s.kicker));
+  // *word* -> gold highlight
+  set('title',s.title&&esc(s.title).replace(/\*(.+?)\*/g,'<em>$1</em>'));
+  set('body',s.body&&esc(s.body));
+  set('bullets',s.bullets&&s.bullets.map(b=>'<li>'+esc(b)+'</li>').join(''));
+  if(!s.clinic){document.getElementById('card').style.display='none'}
+  else{const c=s.clinic;set('cn',esc(c.name));set('ca',esc(c.area));set('ct',esc(c.days+' — '+c.time));set('ph',esc(c.phone));}
+  if(s.qr){document.getElementById('qr').src=s.qr;if(s.qrLabel)document.getElementById('qrl').textContent=s.qrLabel}
+  else document.getElementById('qrbox').style.display='none';
+}
+// shrink main text until everything fits; returns final scale (or -1 if it never fits)
+function fit(){
+  const p=document.getElementById('p'),m=document.querySelector('.main');
+  const over=()=>m.scrollHeight>m.clientHeight+1;
+  let k=1;
+  while(over()&&k>0.55){k-=0.05;document.documentElement.style.setProperty('--k',k.toFixed(2))}
+  return over()?-1:k;
+}
+</script>
+</body>
+</html>
